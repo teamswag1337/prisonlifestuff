@@ -10,7 +10,7 @@ tool.Name = "Fight"
 
 tool.Equipped:connect(function(mouse)
     local llanim = Instance.new('Animation')
-    llanim.AnimationId = 'http://www.roblox.com/asset/?id=156715917'
+    llanim.AnimationId = 'http://www.roblox.com/asset/?id=218401948'
 	anim = ply.Humanoid:LoadAnimation(llanim)
 	local rarm=ply:findFirstChild("Right Arm")
 	local larm = ply:findFirstChild("Left Arm")
